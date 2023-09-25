@@ -1,0 +1,43 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-pane{
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(129, 124, 124, 0.2);
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5%;
+    padding: 20px;
+    width: 50vw;
+}
+
+.form-group{
+    width: 100%;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.submit-btn{
+    width: 90px;
+    height: 35px;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 3px;
+    background-color: #ff1616;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(129, 124, 124, 0.2);
+}
+
+.submit-btn:hover{
+    background-color: #ffffff;
+}

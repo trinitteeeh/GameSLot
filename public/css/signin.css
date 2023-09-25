@@ -1,0 +1,29 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-pane{
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px rgba(129, 124, 124, 0.2);
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5%;
+    padding: 20px;
+    width: 50vw;
+}
+
+.form-group{
+    width: 100%;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+

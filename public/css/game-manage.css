@@ -1,0 +1,83 @@
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-button-pane{
+    display: flex;
+    justify-content: end;
+}
+
+.add-button-pane a{
+    background-color: rgb(59, 59, 210);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table-pane{
+    box-shadow: 0 1px 5px rgba(129, 124, 124, 0.2);
+    height: 250px;
+    border-color: rgba(129, 124, 124, 0.2);
+    border-style: solid;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-left: 10px;
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 14px;
+
+}
+th{
+    padding-top: 10px;
+    background-color: #f8f8f8;
+    color: grey;
+    font-size: 14px;
+    text-align: left;
+}
+
+td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tr{
+    box-shadow: 0 1px 3px rgba(129, 124, 124, 0.2);
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container img{
+    height:40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.genre-pane{
+    background-color: #d1fae5;
+    padding: 3px 6px;
+    border-radius: 35%;
+    color: #71a588;
+    font-size: small;
+    text-align: center;
+    width: 50%;
+}
+
+.edit-link{
+    color: blue;
+}
+
+.delete-link{
+    color: red;
+}

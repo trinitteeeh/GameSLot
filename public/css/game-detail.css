@@ -1,0 +1,116 @@
+.detail-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.detail-container img{
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.detail-pane{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.title-pane{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+.lower-part{
+    display: flex;
+    flex: 1;
+    margin: 30px 50px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 20px 40px;
+    /* height: 100%; */
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    gap: 10%;
+}
+
+.genre-container p{
+    background-color: #d1fae5;
+    text-align: center;
+    padding: 3px 3px;
+    width: 50px;
+    border-radius: 35%;
+    color: #71a588;
+    font-size: small;
+}
+
+.description-container p{
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.right-section{
+    width: 50%;
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.game-pegi{
+    color: red;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0;
+    margin-right: 35px;
+}
+
+.game-price{
+    color: #c9d4fe;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0;
+}
+
+.right-bottom-section a {
+    background-color: rgb(59, 59, 210);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5%;
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
